@@ -1,0 +1,19 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "我的项目",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "author": "linyu0289-byte",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
